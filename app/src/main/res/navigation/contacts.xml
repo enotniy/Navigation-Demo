@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contacts">
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="ru.ekitselyuk.navigation_demo.chat.ContactsFragment"
+        android:label="navigation_contacts" />
+</navigation>

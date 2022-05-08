@@ -22,12 +22,13 @@ class ChatActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_activity_chat)
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_home,
-                R.id.navigation_dashboard,
-                R.id.navigation_notifications
+                R.id.chatFragment,
+                R.id.callsFragment,
+                R.id.chatFragment,
+                R.id.discoverFragment,
+                R.id.settingsFragment,
             )
         )
-
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }

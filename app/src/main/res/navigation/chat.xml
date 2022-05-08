@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chat"
+    app:startDestination="@id/chatFragment">
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="ru.ekitselyuk.navigation_demo.chat.ChatFragment"
+        android:label="navigation_chat"
+        tools:layout="@layout/fragment_default" >
+<!--        <action-->
+<!--            android:id="@+id/action_chatFragment_to_messageFragment"-->
+<!--            app:destination="@id/messageFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_chatFragment_to_newChatFragment"-->
+<!--            app:destination="@id/newChatFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_chatFragment_to_accountFragment"-->
+<!--            app:destination="@id/accountFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_chatFragment_to_editContactFragment"-->
+<!--            app:destination="@id/editContactFragment" />-->
+    </fragment>
+<!--    <fragment-->
+<!--        android:id="@+id/messageFragment"-->
+<!--        android:name="com.xabber.presentation.application.fragments.message.MessageFragment"-->
+<!--        android:label="MessageFragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/newChatFragment"-->
+<!--        android:name="com.xabber.presentation.application.fragments.message.NewChatFragment"-->
+<!--        android:label="NewChatFragment" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_newChatFragment_to_newContactFragment"-->
+<!--            app:destination="@id/newContactFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_newChatFragment_to_newGroupFragment"-->
+<!--            app:destination="@id/newGroupFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/accountFragment"-->
+<!--        android:name="com.xabber.presentation.application.fragments.account.AccountFragment"-->
+<!--        android:label="AccountFragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/newContactFragment"-->
+<!--        android:name="com.xabber.presentation.application.fragments.contacts.NewContactFragment"-->
+<!--        android:label="NewContactFragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/newGroupFragment"-->
+<!--        android:name="com.xabber.presentation.application.fragments.chat.NewGroupFragment"-->
+<!--        android:label="NewGroupFragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/editContactFragment"-->
+<!--        android:name="com.xabber.presentation.application.fragments.contacts.EditContactFragment"-->
+<!--        android:label="EditContactFragment" />-->
+</navigation>

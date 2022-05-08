@@ -12,12 +12,5 @@ class LoginActivity : AppCompatActivity() {
         val isLogin = getPreferences(MODE_PRIVATE).getBoolean("IS_LOGIN", false)
 
         val navHost = findNavController(R.id.nav_host_fragment_activity_login)
-        with(navHost) {
-
-            if (isLogin) {
-                navigate(R.id.action_loginFragment_to_chatGraph)
-                finish()
-            }
-        }
     }
 }

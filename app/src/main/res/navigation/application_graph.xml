@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/application_graph"
+    app:startDestination="@id/chatFragment">
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="ru.ekitselyuk.navigation_demo.chat.ChatFragment"
+        android:label="navigation_chat"
+        tools:layout="@layout/fragment_default" />
+
+    <include app:graph="@navigation/calls" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/callsFragment"-->
+<!--        android:name="ru.ekitselyuk.navigation_demo.chat.CallsFragment"-->
+<!--        android:label="navigation_calls" />-->
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="ru.ekitselyuk.navigation_demo.chat.ContactsFragment"
+        android:label="navigation_contacts" />
+
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="ru.ekitselyuk.navigation_demo.chat.DiscoverFragment"
+        android:label="navigation_discover" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.ekitselyuk.navigation_demo.chat.SettingsFragment"
+        android:label="navigation_settings" />
+
+</navigation>
